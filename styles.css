@@ -62,6 +62,7 @@ p {
 .main img {
   width: 450px;
 }
+
 .main {
   width: 90%;
   display: flex;
@@ -70,7 +71,7 @@ p {
 }
 
 .img-section {
-  max-width: 450px;
+  max-width: 95%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,7 +98,7 @@ p {
 .btn {
   background-color: #a7ffe4;
   border: none;
-  width: 100%;
+  width: 95%;
   padding: 0 1rem;
   height: 6rem;
   margin-bottom: 2.5rem;
@@ -162,9 +163,8 @@ ul {
 .slider.active {
   margin-bottom: 3rem;
   display: flex;
-  max-width: 450px;
-  height: 320px;
-  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.5);
+  max-width: 95%;
+
   position: relative;
 }
 
@@ -174,6 +174,8 @@ ul {
 
 .mySlides img {
   border: 8px solid white;
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.5);
+  width: 100%;
 }
 
 .btn-i {
@@ -344,5 +346,9 @@ footer a {
 
   footer a {
     margin: 0 0.25rem;
+  }
+
+  .slider.active {
+    max-width: 95%;
   }
 }
