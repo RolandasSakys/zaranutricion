@@ -162,8 +162,8 @@ ul {
 .slider.active {
   margin-bottom: 3rem;
   display: flex;
-  max-width: 500px;
-  height: 350px;
+  max-width: 450px;
+  height: 320px;
   box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.5);
   position: relative;
 }
