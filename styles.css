@@ -60,7 +60,7 @@ p {
 }
 
 .main img {
-  width: 500px;
+  width: 450px;
 }
 .main {
   width: 90%;
@@ -70,7 +70,7 @@ p {
 }
 
 .img-section {
-  max-width: 500px;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,7 +86,7 @@ p {
 
 .info {
   display: flex;
-  max-width: 500px;
+  max-width: 450px;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
@@ -98,6 +98,7 @@ p {
   background-color: #a7ffe4;
   border: none;
   width: 100%;
+  padding: 0 1rem;
   height: 6rem;
   margin-bottom: 2.5rem;
   border-radius: 1rem;
@@ -282,7 +283,7 @@ footer {
 }
 
 footer a {
-  margin: 0 1.5rem;
+  margin: 0 1.1rem;
 }
 
 .date {
@@ -333,5 +334,15 @@ footer a {
     max-width: 600px;
     top: 0px;
     left: -600px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main img {
+    max-width: 95%;
+  }
+
+  footer a {
+    margin: 0 0.25rem;
   }
 }
