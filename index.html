@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="author" content="Rolandas Sakys" />
+    <meta
+      name="description"
+      content="Website about health, vitamins, suplements, nutricion, weightloos."
+    />
+
+    <meta property="type" content="website" />
+    <meta
+      property="url"
+      content="https://www.sitepoint.com/a-basic-html5-template/"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zorina Sakys</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header--h1">Zarina Sakys</h1>
+      <h2 class="header--h2">Член Ассоциации нутрициологов Украины</h2>
+      <p>Сертифицированный нутрициолог, диетолог</p>
+    </header>
+    <main class="main">
+      <section class="img-section">
+        <figure><img src="./img/Zarina.jpg" alt="Zorina Sakys" /></figure>
+
+        <h3 class="img-section--h3">Ambassador in Nature's Sunshine</h3>
+        <p class="img-esction--p">Влюбляю в нутрициологию</p>
+      </section>
+
+      <section class="info">
+        <button class="btn" id="consult-btn">Kонсультации</button>
+        <div class="consult-div" id="consult-div">
+          <ul>
+            <li>Bедение пищевого дневника</li>
+            <li>Cоставление рациона питания</li>
+            <li>Pазбор анализов</li>
+            <li>Профессиональный подбор БАДов</li>
+          </ul>
+          <p>Cтоимость услуг - персонально</p>
+        </div>
+
+        <button class="btn" id="sertificate-btn">Cертификаты</button>
+        <div class="slider" id="slider">
+          <div class="mySlides">
+            <img src="./img/Gastro.jpg" alt="Gastro-intestinal" />
+          </div>
+          <div class="mySlides">
+            <img src="./img/Heart-health.jpg" alt="Heart Health" />
+          </div>
+          <div class="mySlides">
+            <img src="./img/Intensiv.jpg" alt="Intensiv" />
+          </div>
+          <div class="mySlides">
+            <img src="./img/Protocol.jpg" alt="Protocol" />
+          </div>
+          <div class="mySlides">
+            <img src="./img/Pulmonology.jpg" alt="Pulmonology" />
+          </div>
+          <div class="mySlides">
+            <img src="./img/Weight.jpg" alt="Weight" />
+          </div>
+          <div class="mySlides">
+            <img src="./img/Womens-health.jpg" alt="Womens Health" />
+          </div>
+
+          <i
+            class="fa-solid fa-angles-left btn-i previous"
+            onclick="plusSlides(-1)"
+          ></i>
+          <i
+            class="fa-solid fa-angles-right btn-i next"
+            onclick="plusSlides(1)"
+          ></i>
+        </div>
+        <button class="btn" id="marafon-btn">Mарафоны</button>
+        <div class="marafon-div" id="marafon-div">
+          <ul>
+            <li>Реабилитация ЖКТ</li>
+            <li>Детокс 14</li>
+            <li>Чистая лимфа - здоровый иммунитет</li>
+            <li>Здоровье печени</li>
+            <li>Противопаразитарный</li>
+            <li>Антистресс</li>
+          </ul>
+          <p>
+            Маpафoны проходят циклично, на постоянной основе. О ближайшем
+            марафоне уточните персонально
+          </p>
+        </div>
+
+        <button class="btn" id="discount-btn">
+          Оформить заказ NSP с дисконтом-30%<br />
+          Получить персональную консультацию
+        </button>
+        <section class="discount" id="discount-div">
+          <a href="https://es4341160.e-naturessunshine.com/"
+            >Оформить заказ с дисконтом -30% ЕС</a
+          >
+
+          <a href="https://nsp25.com/signup.php?sid=384241"
+            >Оформить заказ с дисконтом -30% Украина</a
+          >
+          <a href="https://nsp-sport.nsp.ua/phytoproducty-dlya-zdorovya/"
+            >Сайт с аннотациями</a
+          >
+
+          <a href="https://forms.gle/WnA3GxB2vk18mg1g9"
+            >Анкета для персональной консультации</a
+          >
+        </section>
+
+        <button class="btn" id="kurs-btn">
+          Kурсы нутрициологии <br />
+          Дополнительные возможности для специалистов индустрии красоты и спорта
+        </button>
+
+        <section class="kurs" id="kurs-div">
+          <p>
+            Чтоб стать экспертом в сфере здорового образа жизни, сейчас есть
+            возможность получить доступ к архиву записей курсов со скидкой -50%
+          </p>
+          <br />
+          <p>
+            🔸четыре курса нутрициологии, основы нутрициологии (пятидневные);
+          </p>
+          <p>🔸семь конференций</p>
+          <p>&#171; Здоровье сердца и сосудов &#187;</p>
+          <p>&#171; Здоровье нервной системы &#187;</p>
+          <p>&#171; Женское здоровье &#187;</p>
+          <p>&#171; Коррекция веса и правильное питание &#187;</p>
+          <p>&#171; Здоровье желудочно-кишечного тракта &#187;</p>
+          <p>&#171; Пульмонология - здоровье дыхательной системы &#187;</p>
+          <br />
+          <p>
+            С выдачей сертификата и доступом ко всем презентациям! Доступ на 12
+            месяцев - 49$ (вместо 99$) Доступ на 6 месяцев - 19$ (вместо 49$)
+          </p>
+
+          <p>Все подробности уточняйте персонально</p>
+        </section>
+
+        <a
+          class="youtube"
+          href="https://youtube.com/channel/UCLBXiFBj5sNbrtzTWmJPf5Q"
+          >Мой ютуб канал</a
+        >
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a href="https://www.facebook.com/zarisha.denysyuk">
+          <img src="./icons/facebook.png" alt="Facebook" />
+        </a>
+
+        <a href="https://instagram.com/zarina_sakys?utm_medium=copy_link"
+          ><img src="./icons/instagram.png" alt="Instagram"
+        /></a>
+
+        <a href="https://wa.me/+34645116182"
+          ><img src="./icons/whatsapp.png" alt="WhatsApp"
+        /></a>
+
+        <a href="viber://chat/?number=%2B34645116182"
+          ><img src="./icons/viber.png" alt="Viber"
+        /></a>
+
+        <a href="https://telegram.me/zaranutrition"
+          ><img src="./icons/telegrama.png" alt="Telegram"
+        /></a>
+      </div>
+      <div>
+        <p class="date">&copy; Copyright <span id="date">${date}</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
