@@ -29,6 +29,7 @@ body {
   align-items: center;
   text-align: center;
   width: 90%;
+  position: relative;
 }
 
 .header--h1 {
@@ -47,6 +48,16 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+.nav {
+  position: absolute;
+  right: -1rem;
+  top: 1rem;
+}
+
+.nav a img {
+  width: 2.5rem;
+}
+
 .img-esction--p {
   font-family: "Caveat", cursive;
   font-size: 1.8rem;
@@ -61,6 +72,7 @@ p {
 
 .main img {
   width: 450px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .main {
